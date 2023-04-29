@@ -4,7 +4,7 @@ import { Text, Input,Button,Stack,Heading} from '@chakra-ui/react'
 function ChakraCard({task,handleDelete}) {
     
   return (
-    <div style={{display:'flex',justifyContent:'center',marginBottom:"3vh"}}>
+    <div style={{display:'flex',justifyContent:'center',marginBottom:"1.5vh"}}>
         <Card
         direction={{ base: 'column', sm: 'row' }}
         overflow='hidden'
