@@ -24,6 +24,7 @@ function App(){
     }
     settaskList([...tasklist,newtask])
     setTask('')
+    localStorage.setItem("lastname", tasklist);
   }
 
   const deletetask=(id)=>{
